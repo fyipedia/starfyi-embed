@@ -43,7 +43,7 @@ That's it. The widget fetches data from the StarFYI API and renders with full st
 | `data-starfyi` | entity, compare, glossary, guide, search, [tools] | required | Widget type |
 | `data-slug` | e.g. "stars" | — | Entity slug from the StarFYI database |
 | `data-theme` | light, dark, sepia, auto | light | Visual theme (`auto` follows OS preference) |
-| `data-style` | modern, technical | modern | Widget design style |
+| `data-styleVariant` | modern, technical | modern | Widget design style |
 | `data-size` | default, compact, large | default | Widget size |
 | `data-placeholder` | any string | "Search Stars..." | Search box placeholder |
 
@@ -67,10 +67,10 @@ That's it. The widget fetches data from the StarFYI API and renders with full st
 
 ```html
 <!-- Modern (default) — clean lines, rounded corners, accent gradients -->
-<div data-starfyi="entity" data-slug="stars" data-style="modern"></div>
+<div data-starfyi="entity" data-slug="stars" data-styleVariant="modern"></div>
 
 <!-- Technical — monospace type, grid overlays, laboratory aesthetic -->
-<div data-starfyi="entity" data-slug="stars" data-style="technical"></div>
+<div data-starfyi="entity" data-slug="stars" data-styleVariant="technical"></div>
 ```
 
 ## Web Components (Custom Elements)
