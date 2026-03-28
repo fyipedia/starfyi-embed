@@ -1,0 +1,42 @@
+{
+  "name": "starfyi-embed",
+  "version": "1.0.0",
+  "description": "Embed StarFYI astronomy widgets — spectral badges, magnitude display, constellation cards. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "star",
+    "spectral",
+    "obafgkm",
+    "magnitude",
+    "constellation",
+    "astronomy",
+    "embed",
+    "widget",
+    "starfyi",
+    "starfyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "sciencefyi"
+  ],
+  "homepage": "https://widget.starfyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/starfyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/starfyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
