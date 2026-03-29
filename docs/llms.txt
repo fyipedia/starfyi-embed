@@ -1,21 +1,52 @@
 # StarFYI Embed Widget
 
-> Embeddable StarFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Stars, constellations, exoplanets. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/starfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/starfyi-embed@1/dist/embed.min.js"></script>
+<div data-starfyi="spectral-badge" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-starfyi="entity"`
+- glossary: `data-starfyi="glossary"`
+- guide: `data-starfyi="guide"`
+- compare: `data-starfyi="compare"`
+- search: `data-starfyi="search"`
+- spectral-badge (interactive): `data-starfyi="spectral-badge"`
+- magnitude-display (interactive): `data-starfyi="magnitude-display"`
+- constellation-card (interactive): `data-starfyi="constellation-card"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-starfyi="spectral-badge" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/starfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://starfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://starfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://starfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://starfyi.com
 - Widget docs: https://widget.starfyi.com
-- npm: https://www.npmjs.com/package/starfyi-embed
+- API documentation: https://starfyi.com/developers/
+- npm package: https://www.npmjs.com/package/starfyi-embed
 - GitHub: https://github.com/fyipedia/starfyi-embed
-- API: https://starfyi.com/developers/
 
-## Science FYI Widget Family
+## Science FYI Widget Network
 
 - [ChemFYI Widget](https://widget.chemfyi.com)
 - [AlloyFYI Widget](https://widget.alloyfyi.com)
