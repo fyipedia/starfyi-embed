@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# StarFYI Embed Widget
+# Main site: https://starfyi.com
+# Widget docs: https://widget.starfyi.com
+# npm: https://www.npmjs.com/package/starfyi-embed
