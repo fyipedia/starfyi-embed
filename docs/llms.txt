@@ -1,0 +1,27 @@
+# StarFYI Embed Widget
+
+> Embeddable StarFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/starfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://starfyi.com
+- Widget docs: https://widget.starfyi.com
+- npm: https://www.npmjs.com/package/starfyi-embed
+- GitHub: https://github.com/fyipedia/starfyi-embed
+- API: https://starfyi.com/developers/
+
+## Science FYI Widget Family
+
+- [ChemFYI Widget](https://widget.chemfyi.com)
+- [AlloyFYI Widget](https://widget.alloyfyi.com)
+- [GemFYI Widget](https://widget.gemfyi.com)
+- [MineralFYI Widget](https://widget.mineralfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
