@@ -175,6 +175,17 @@ Part of [FYIPedia](https://fyipedia.com) — open-source developer tools ecosyst
 | **StarFYI** | [starfyi.com](https://starfyi.com) | Stars, constellations, spectral classification, magnitudes | **[npm](https://www.npmjs.com/package/starfyi-embed)** |
 | MineralFYI | [mineralfyi.com](https://mineralfyi.com) | 6,215 minerals, crystal systems, Mohs hardness | [npm](https://www.npmjs.com/package/mineralfyi-embed) |
 
+## Embed Widget
+
+Embed [StarFYI](https://starfyi.com) widgets on any website with [starfyi-embed](https://widget.starfyi.com):
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/starfyi-embed@1/dist/embed.min.js"></script>
+<div data-starfyi="entity" data-slug="example"></div>
+```
+
+Zero dependencies · Shadow DOM · 4 themes (light/dark/sepia/auto) · [Widget docs](https://widget.starfyi.com)
+
 ## License
 
 MIT — see [LICENSE](./LICENSE).
